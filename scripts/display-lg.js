@@ -1,7 +1,6 @@
 function artData(val) {
   switch (val) {
     case 0:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/nighthawks.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Nighthawks </h2>\
@@ -12,10 +11,12 @@ function artData(val) {
       <b>Artist</b><br>Edward Hopper<br><br>\
       <b>Price</b><br>$3,000<br><br>\
       <b>Genre</b><br>Realism<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 1:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/lastsupper.jpg";
       document.getElementById('info').innerHTML="\
       <h2> The Last Supper </h2>\
@@ -26,10 +27,12 @@ function artData(val) {
       <b>Artist</b><br>Leonardo Da Vinci<br><br>\
       <b>Price</b><br>Priceless<br><br>\
       <b>Genre</b><br>Renaissance<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 2:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/starry.jpg";
       document.getElementById('info').innerHTML="\
       <h2> The Starry Night </h2>\
@@ -40,10 +43,12 @@ function artData(val) {
       <b>Artist</b><br>Vincent van Gogh<br><br>\
       <b>Price</b><br>Estimated at ~$100,000,000<br><br>\
       <b>Genre</b><br>Landscape Painting<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 3:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/gothic.jpg";
       document.getElementById('info').innerHTML="\
       <h2> American Gothic </h2>\
@@ -54,10 +59,12 @@ function artData(val) {
       <b>Artist</b><br>Grant Wood<br><br>\
       <b>Price</b><br>~$6,960,000<br><br>\
       <b>Genre</b><br>Modernism<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 4:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/mandolin.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Girl With A Mandolin </h2>\
@@ -68,15 +75,21 @@ function artData(val) {
       <b>Artist</b><br>Pablo Picasso<br><br>\
       <b>Price</b><br>~$7,000,000<br><br>\
       <b>Genre</b><br>History Painting<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
+    default:
+      document.getElementById('info').innerHTML="\
+      <h1> Data not found </h1>\
+      "
   }
 }
 
 function artistData(val) {
   switch (val) {
     case 0:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/picasso.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Pablo Picasso </h2>\
@@ -84,10 +97,12 @@ function artistData(val) {
       <b>Residence</b><br>Mougins, France<br><br>\
       <b>Genre(s)</b><br>Cubism, Surrealsm<br><br>\
       <b>Notable Works</b><br>La Vie, The Weeping Woman<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 1:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/davinci.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Leonardo Da Vinci </h2>\
@@ -95,10 +110,12 @@ function artistData(val) {
       <b>Residence</b><br>Amboise, France<br><br>\
       <b>Genre(s)</b><br>High Renaissance<br><br>\
       <b>Notable Works</b><br>Mona Lisa, The Last Supper<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 2:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/warhol.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Andy Warhol </h2>\
@@ -106,10 +123,12 @@ function artistData(val) {
       <b>Residence</b><br>New York City, New York, U.S.<br><br>\
       <b>Genre(s)</b><br>Pop Art<br><br>\
       <b>Notable Works</b><br>Campbell's Soup Cans<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 3:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/dali.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Salvador Dali </h2>\
@@ -117,10 +136,12 @@ function artistData(val) {
       <b>Residence</b><br>Figueres, Catalonia, Spain<br><br>\
       <b>Genre(s)</b><br>Cubism, Dada, Surrealism<br><br>\
       <b>Notable Works</b><br>The Persistence of Memory, The Elephants<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
     case 4:
-      document.getElementById('window').style.visibility= "visible";
       document.getElementById('image').src="./assets/norval.jpg";
       document.getElementById('info').innerHTML="\
       <h2> Norval Morrisseau </h2>\
@@ -128,7 +149,14 @@ function artistData(val) {
       <b>Residence</b><br> Toronto, Ontario, Canada <br><br>\
       <b>Genre(s)</b><br> Woodlands Style <br><br>\
       <b>Notable Works</b><br> Multiple Untitled Works <br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       ";
       break;
+    default:
+        document.getElementById('info').innerHTML="\
+        <h1> Data not found </h1>\
+        "
   }
 }
