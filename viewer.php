@@ -18,10 +18,10 @@
   <table id="window" class="table table-bordered">
     <tbody>
       <tr>
+        <td class="align-middle" id="info">
+        </td>
         <td class="align-middle" width="20%">
           <img src="#" id="image"/>
-        </td>
-        <td class="align-middle" id="info">
         </td>
       </tr>
     </tbody>
