@@ -1,9 +1,19 @@
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+.viewer {
+    margin: auto;
+}
+
 table {
     border-collapse: collapse;
-    width: 80%;
     text-align: center;
     vertical-align:middle;
-    visibility: collapse;
+
+    margin: 0px auto;
+    float: none;
 }
 
 table, th, td {
@@ -11,7 +21,5 @@ table, th, td {
 }
 
 td > img {
-
   max-width: 100%;
-  max-height: 80%;
 }

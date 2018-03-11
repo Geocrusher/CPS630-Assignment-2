@@ -14,18 +14,20 @@
 
 <body>
 
+<div class="container-fluid viewer">
   <!-- Viewer -->
   <table id="window" class="table table-bordered">
     <tbody>
       <tr>
         <td class="align-middle" id="info">
         </td>
-        <td class="align-middle" width="20%">
+        <td class="align-middle" width="60%">
           <img src="#" id="image"/>
         </td>
       </tr>
     </tbody>
   </table>
+</div>
 
 </body>
 
@@ -34,5 +36,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="scripts/display-lg.js"></script>
+
+<?php
+   $type = $_GET['type'];
+   $no = $_GET['no'];
+
+   if ($type == "art") {
+     echo "<script> artData($no) </script>";
+   } else {
+     echo "<script> artistData($no) </script>";
+   }
+?>
 
 </html>
