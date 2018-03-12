@@ -14,6 +14,28 @@ function artData(val) {
       <button type=\"button\" class=\"btn btn-outline-secondary\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
+      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
+      <div class="modal-dialog" role="document">\
+      <div class="modal-content">\
+      <div class="modal-header">\
+        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+          <span aria-hidden="true">&times;</span>\
+        </button>\
+      </div>\
+      <div class="modal-body">\
+        <form id="form" name="nighthawks">\
+          <img src="./assets/nighthawks.jpg" alt="Nighthawks" height="100" width="100">\
+          Quantity \
+          <input id='textfield'>\
+        </form>\
+      </div>\
+        <div class="modal-footer">\
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+      </div>\
+      </div>\
+      </div>\
+      </div>\ 
       ";
       break;
     case 1:
@@ -30,6 +52,28 @@ function artData(val) {
       <button type=\"button\" class=\"btn btn-outline-secondary\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
+      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
+      <div class="modal-dialog" role="document">\
+      <div class="modal-content">\
+      <div class="modal-header">\
+        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+          <span aria-hidden="true">&times;</span>\
+        </button>\
+      </div>\
+      <div class="modal-body">\
+        <form id="form" name="lastsupper">\
+          <img src="./assets/lastsupper.jpg" alt="Lastsupper" height="100" width="100">\
+          Quantity \
+          <input id='textfield'>\
+        </form>\
+      </div>\
+        <div class="modal-footer">\
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+      </div>\
+      </div>\
+      </div>\
+      </div>\ 
       ";
       break;
     case 2:
@@ -46,6 +90,28 @@ function artData(val) {
       <button type=\"button\" class=\"btn btn-outline-secondary\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
+      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
+      <div class="modal-dialog" role="document">\
+      <div class="modal-content">\
+      <div class="modal-header">\
+        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+          <span aria-hidden="true">&times;</span>\
+        </button>\
+      </div>\
+      <div class="modal-body">\
+        <form id="form" name="starry">\
+          <img src="./assets/starry.jpg" alt="Starry" height="100" width="100">\
+          Quantity \
+          <input id='textfield'>\
+        </form>\
+      </div>\
+        <div class="modal-footer">\
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+      </div>\
+      </div>\
+      </div>\
+      </div>\ 
       ";
       break;
     case 3:
@@ -61,7 +127,28 @@ function artData(val) {
       <b>Genre</b><br>Modernism<br><br>\
       <button type=\"button\" class=\"btn btn-outline-secondary\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\
+      </button>\      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
+      <div class="modal-dialog" role="document">\
+      <div class="modal-content">\
+      <div class="modal-header">\
+        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+          <span aria-hidden="true">&times;</span>\
+        </button>\
+      </div>\
+      <div class="modal-body">\
+        <form id="form" name="gothic">\
+          <img src="./assets/gothic.jpg" alt="Gothic" height="100" width="100">\
+          Quantity \
+          <input id='textfield'>\
+        </form>\
+      </div>\
+        <div class="modal-footer">\
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+      </div>\
+      </div>\
+      </div>\
+      </div>\
       ";
       break;
     case 4:
