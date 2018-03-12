@@ -11,31 +11,31 @@ function artData(val) {
       <b>Artist</b><br>Edward Hopper<br><br>\
       <b>Price</b><br>$3,000<br><br>\
       <b>Genre</b><br>Realism<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+      <button type=\"button\" class=\"btn btn-outline-secondary\" data-toggle=\"modal\" data-target=\"#purchase\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
-      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
-      <div class="modal-dialog" role="document">\
-      <div class="modal-content">\
-      <div class="modal-header">\
-        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
-          <span aria-hidden="true">&times;</span>\
+      <div class=\"modal\" id=\"purchase\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"purchaseLabel\" aria-hidden=\"true\">\
+      <div class=\"modal-dialog\" role=\"document\">\
+      <div class=\"modal-content\">\
+      <div class=\"modal-header\">\
+        <h5 class=\"modal-title\" id=\"purchaseLabel\">Items in Your Bag</h5>\
+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\
+          <span aria-hidden=\"true\">&times;</span>\
         </button>\
       </div>\
-      <div class="modal-body">\
-        <form id="form" name="nighthawks">\
-          <img src="./assets/nighthawks.jpg" alt="Nighthawks" height="100" width="100">\
+      <div class=\"modal-body\">\
+        <form id=\"form\" name=\"nighthawks\">\
+          <img src=\"./assets/nighthawks.jpg\" alt=\"Nighthawks\" height=\"100\" width=\"100\">\
           Quantity \
-          <input id='textfield'>\
+          <input id=\'textfield\'>\
         </form>\
       </div>\
-        <div class="modal-footer">\
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+        <div class=\"modal-footer\">\
+        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\
       </div>\
       </div>\
       </div>\
-      </div>\ 
+      </div>\
       ";
       break;
     case 1:
@@ -49,31 +49,31 @@ function artData(val) {
       <b>Artist</b><br>Leonardo Da Vinci<br><br>\
       <b>Price</b><br>Priceless<br><br>\
       <b>Genre</b><br>Renaissance<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+      <button type=\"button\" class=\"btn btn-outline-secondary\" data-toggle=\"modal\" data-target=\"#purchase\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
-      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
-      <div class="modal-dialog" role="document">\
-      <div class="modal-content">\
-      <div class="modal-header">\
-        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
-          <span aria-hidden="true">&times;</span>\
+      <div class=\"modal\" id=\"purchase\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"purchaseLabel\" aria-hidden=\"true\">\
+      <div class=\"modal-dialog\" role=\"document\">\
+      <div class=\"modal-content\">\
+      <div class=\"modal-header\">\
+        <h5 class=\"modal-title\" id=\"purchaseLabel\">Items in Your Bag</h5>\
+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\
+          <span aria-hidden=\"true\">&times;</span>\
         </button>\
       </div>\
-      <div class="modal-body">\
-        <form id="form" name="lastsupper">\
-          <img src="./assets/lastsupper.jpg" alt="Lastsupper" height="100" width="100">\
+      <div class=\"modal-body\">\
+        <form id=\"form\" name=\"lastsupper\">\
+          <img src=\"./assets/lastsupper.jpg\" alt=\"The Last Supper\" height=\"100\" width=\"100\">\
           Quantity \
-          <input id='textfield'>\
+          <input id=\'textfield\'>\
         </form>\
       </div>\
-        <div class="modal-footer">\
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+        <div class=\"modal-footer\">\
+        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\
       </div>\
       </div>\
       </div>\
-      </div>\ 
+      </div>\
       ";
       break;
     case 2:
@@ -87,31 +87,34 @@ function artData(val) {
       <b>Artist</b><br>Vincent van Gogh<br><br>\
       <b>Price</b><br>Estimated at ~$100,000,000<br><br>\
       <b>Genre</b><br>Landscape Painting<br><br>\
+      <button type=\"button\" class=\"btn btn-outline-secondary\" data-toggle=\"modal\" data-target=\"#purchase\">\
+        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
+      </button>\
       <button type=\"button\" class=\"btn btn-outline-secondary\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
-      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
-      <div class="modal-dialog" role="document">\
-      <div class="modal-content">\
-      <div class="modal-header">\
-        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
-          <span aria-hidden="true">&times;</span>\
+      <div class=\"modal\" id=\"purchase\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"purchaseLabel\" aria-hidden=\"true\">\
+      <div class=\"modal-dialog\" role=\"document\">\
+      <div class=\"modal-content\">\
+      <div class=\"modal-header\">\
+        <h5 class=\"modal-title\" id=\"purchaseLabel\">Items in Your Bag</h5>\
+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\
+          <span aria-hidden=\"true\">&times;</span>\
         </button>\
       </div>\
-      <div class="modal-body">\
-        <form id="form" name="starry">\
-          <img src="./assets/starry.jpg" alt="Starry" height="100" width="100">\
+      <div class=\"modal-body\">\
+        <form id=\"form\" name=\"starry\">\
+          <img src=\"./assets/starry.jpg\" alt=\"The Starry Night\" height=\"100\" width=\"100\">\
           Quantity \
-          <input id='textfield'>\
+          <input id=\'textfield\'>\
         </form>\
       </div>\
-        <div class="modal-footer">\
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+        <div class=\"modal-footer\">\
+        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\
       </div>\
       </div>\
       </div>\
-      </div>\ 
+      </div>\
       ";
       break;
     case 3:
@@ -125,26 +128,27 @@ function artData(val) {
       <b>Artist</b><br>Grant Wood<br><br>\
       <b>Price</b><br>~$6,960,000<br><br>\
       <b>Genre</b><br>Modernism<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+      <button type=\"button\" class=\"btn btn-outline-secondary\" data-toggle=\"modal\" data-target=\"#purchase\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\      <div class="modal" id="purchase" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">\
-      <div class="modal-dialog" role="document">\
-      <div class="modal-content">\
-      <div class="modal-header">\
-        <h5 class="modal-title" id="purchaseLabel">Items in Your Bag</h5>\
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
-          <span aria-hidden="true">&times;</span>\
+      </button>\
+      <div class=\"modal\" id=\"purchase\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"purchaseLabel\" aria-hidden=\"true\">\
+      <div class=\"modal-dialog\" role=\"document\">\
+      <div class=\"modal-content\">\
+      <div class=\"modal-header\">\
+        <h5 class=\"modal-title\" id=\"purchaseLabel\">Items in Your Bag</h5>\
+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\
+          <span aria-hidden=\"true\">&times;</span>\
         </button>\
       </div>\
-      <div class="modal-body">\
-        <form id="form" name="gothic">\
-          <img src="./assets/gothic.jpg" alt="Gothic" height="100" width="100">\
+      <div class=\"modal-body\">\
+        <form id=\"form\" name=\"gothic\">\
+          <img src=\"./assets/gothic.jpg\" alt=\"American Gothic\" height=\"100\" width=\"100\">\
           Quantity \
-          <input id='textfield'>\
+          <input id=\'textfield\'>\
         </form>\
       </div>\
-        <div class="modal-footer">\
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+        <div class=\"modal-footer\">\
+        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\
       </div>\
       </div>\
       </div>\
@@ -162,9 +166,31 @@ function artData(val) {
       <b>Artist</b><br>Pablo Picasso<br><br>\
       <b>Price</b><br>~$7,000,000<br><br>\
       <b>Genre</b><br>History Painting<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
+      <button type=\"button\" class=\"btn btn-outline-secondary\" data-toggle=\"modal\" data-target=\"#purchase\">\
         <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
       </button>\
+      <div class=\"modal\" id=\"purchase\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"purchaseLabel\" aria-hidden=\"true\">\
+      <div class=\"modal-dialog\" role=\"document\">\
+      <div class=\"modal-content\">\
+      <div class=\"modal-header\">\
+        <h5 class=\"modal-title\" id=\"purchaseLabel\">Items in Your Bag</h5>\
+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\
+          <span aria-hidden=\"true\">&times;</span>\
+        </button>\
+      </div>\
+      <div class=\"modal-body\">\
+        <form id=\"form\" name=\"mandolin\">\
+          <img src=\"./assets/mandolin.jpg\" alt=\"Girl With A Mandolin\" height=\"100\" width=\"100\">\
+          Quantity \
+          <input id=\'textfield\'>\
+        </form>\
+      </div>\
+        <div class=\"modal-footer\">\
+        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\
+      </div>\
+      </div>\
+      </div>\
+      </div>\
       ";
       break;
     default:
@@ -184,9 +210,6 @@ function artistData(val) {
       <b>Residence</b><br>Mougins, France<br><br>\
       <b>Genre(s)</b><br>Cubism, Surrealsm<br><br>\
       <b>Notable Works</b><br>La Vie, The Weeping Woman<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
-        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\
       ";
       break;
     case 1:
@@ -197,9 +220,6 @@ function artistData(val) {
       <b>Residence</b><br>Amboise, France<br><br>\
       <b>Genre(s)</b><br>High Renaissance<br><br>\
       <b>Notable Works</b><br>Mona Lisa, The Last Supper<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
-        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\
       ";
       break;
     case 2:
@@ -210,9 +230,6 @@ function artistData(val) {
       <b>Residence</b><br>New York City, New York, U.S.<br><br>\
       <b>Genre(s)</b><br>Pop Art<br><br>\
       <b>Notable Works</b><br>Campbell's Soup Cans<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
-        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\
       ";
       break;
     case 3:
@@ -223,9 +240,6 @@ function artistData(val) {
       <b>Residence</b><br>Figueres, Catalonia, Spain<br><br>\
       <b>Genre(s)</b><br>Cubism, Dada, Surrealism<br><br>\
       <b>Notable Works</b><br>The Persistence of Memory, The Elephants<br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
-        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\
       ";
       break;
     case 4:
@@ -236,9 +250,6 @@ function artistData(val) {
       <b>Residence</b><br> Toronto, Ontario, Canada <br><br>\
       <b>Genre(s)</b><br> Woodlands Style <br><br>\
       <b>Notable Works</b><br> Multiple Untitled Works <br><br>\
-      <button type=\"button\" class=\"btn btn-outline-secondary\">\
-        <img src=\"assets/cart.svg\" width=17px> Shopping Cart </img>\
-      </button>\
       ";
       break;
     default:
