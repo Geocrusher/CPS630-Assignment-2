@@ -1,3 +1,5 @@
+
+
 .carousel {
     background-color: #000000;
     color: #000000;
@@ -106,4 +108,8 @@ html {
 
 .circle {
   border-radius: 50%;
+}
+
+.search-container {
+  float: right;
 }
